@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.logo h3 {
+    font-size: 28px;
+    font-weight: 800;
+}
+.logo h3 span{
+    color: crimson;
+}
