@@ -1,8 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Azeret Mono", monospace;
 }
 
+.btn{
+    padding: 10px 20px;
+    background: none;
+    opacity: 0.8;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size:16px;
+    font-weight: 600;
+    border: 1px solid #0d1321;
+
+}
+section{
+    margin: 0 48px;
+    margin-top: 100px;
+}
+section .section-title{
+    color: #0d1321;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+section .section-des{
+    color: #0d1321;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 400;
+    padding: 15px 0;
+    line-height: 26px;
+    text-align: center;
+}
 /* Nav Style  */
 nav{
     display: flex;
@@ -11,9 +46,109 @@ nav{
     padding: 40px 100px;
 }
 .logo h3 {
+    color: #0d1321;
     font-size: 28px;
     font-weight: 800;
 }
 .logo h3 span{
     color: crimson;
+}
+/* Header Section  */
+.header{
+    background-image: url(assets/Hero-bg.png);
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.header-contain {
+    width: 998px;
+}
+.header-contain img{
+    width: 250px;
+}
+.header-contain h2{
+    color: rgb(13, 19, 33);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 45px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.header-contain p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 18px;
+
+    font-weight: 400;
+    line-height: 12px;
+}
+.header-contain a .btn{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px 21px 24px;
+    line-height: 11px;
+    border-radius: 8px;
+    opacity: 1;
+    background: #0d1321;
+}
+
+/* development section  */
+#dif-color{
+    justify-content: space-evenly;
+    background:  #fafafb;
+    box-shadow: none;
+}
+
+.development{
+    padding: 10px 50px;
+    border-radius: 16px;
+    background: #0d132105;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.048);
+
+   
+}
+.development-head{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.158);
+    justify-content: space-around;
+    background: #fff;
+    margin-bottom: 10px;
+    
+}
+
+.development-head .development-info{
+    width: 477px;
+}
+.development-head .development-info h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 23px;
+    margin-bottom: 9px;
+    font-weight: 700;
+    line-height: 38px;
+    opacity: 1;
+    text-align: left;
+}
+.development-head .development-info .btn{
+    border-radius: 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+.development-head .development-info p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 9px;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
 }
