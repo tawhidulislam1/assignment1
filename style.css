@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* universal Style  */
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,8 @@
     font-family: "Azeret Mono", monospace;
 }
 
+
+/* Shared Style  */
 .btn{
     padding: 10px 20px;
     background: none;
@@ -38,7 +41,7 @@ section .section-des{
     line-height: 26px;
     text-align: center;
 }
-/* Nav Style  */
+/* Nav Section Style  */
 nav{
     display: flex;
     align-items: center;
@@ -53,7 +56,7 @@ nav{
 .logo h3 span{
     color: crimson;
 }
-/* Header Section  */
+/* Header Section Style */
 .header{
     background-image: url(assets/Hero-bg.png);
     width: 100%;
@@ -84,7 +87,6 @@ nav{
     opacity: 0.7;
     font-size: 16px;
     margin-bottom: 18px;
-
     font-weight: 400;
     line-height: 12px;
 }
@@ -99,20 +101,17 @@ nav{
     background: #0d1321;
 }
 
-/* development section  */
+/* development section  Style*/
 #dif-color{
     justify-content: space-evenly;
     background:  #fafafb;
     box-shadow: none;
 }
-
 .development{
     padding: 10px 50px;
     border-radius: 16px;
     background: #0d132105;
-    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.048);
-
-   
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.048); 
 }
 .development-head{
     display: flex;
@@ -120,8 +119,7 @@ nav{
     box-shadow: 0px 1px 8px rgb(0 0 0 / 11%);
     justify-content: space-around;
     background: #fff;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px; 
 }
 
 .development-head .development-info{
@@ -154,7 +152,7 @@ nav{
 }
 
 
-/* Target Style */
+/* Target Section Style */
 .box-model{
     gap: 30;
    
@@ -254,6 +252,7 @@ nav{
 
 /* Footer section style  */
 footer{
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     border-radius: 16px;
